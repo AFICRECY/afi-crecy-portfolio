@@ -24,9 +24,10 @@ header {
 
 nav {
     display: inline-block;
-    justify-content: center;
-    word-spacing: 20px;
+    justify-content: space-evenly;
     background-color: #c6562a;
+    height: 50px;
+    align-items: center;
 }
 /* testing the 20px, not a fixed number */
 
@@ -51,8 +52,22 @@ aside {
     text-align: left;
     padding: 80px;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 
+h1 {
+    font-size: large
+}
+
+
+h2 {
+  font-size: xx-large;
+  line-height: 3em;
+}
+
+div {
+    justify-content: center;
+}
 
 .experience {
     flex: 3;
@@ -71,7 +86,7 @@ aside {
 }
 
 img:hover {
-    box-shadow: 10px 5px 5px rgb(1, 62, 177);
+    box-shadow: 10px 5px 5px rgb(246, 241, 147);
 }
 
 .project {
