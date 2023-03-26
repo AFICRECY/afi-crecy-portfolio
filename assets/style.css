@@ -44,16 +44,21 @@ main {
     flex-wrap: wrap;
   }
 
+
+
+
+
 aside {
-    flex: 1;
+    flex: 2;
     background-color: #ffde05;
     text-align: left;
     padding: 80px;
+    flex-direction: column;
   }
 
 
 .experience {
-    flex: 4;
+    flex: 3;
     background-color: #fdedb3;
     padding: 50px;
     display: flex;
@@ -62,6 +67,15 @@ aside {
     align-items: flex-start;
 }
 /* took out flex-wrap: wrap and replaced it with flex-direction */
+
+.experience img {
+    border-radius: 50%;
+    justify-content: center;
+}
+
+img:hover {
+    box-shadow: 10px 5px 5px rgb(1, 62, 177);
+}
 
 .project {
     border-style: solid;
