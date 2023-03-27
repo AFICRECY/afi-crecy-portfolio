@@ -13,7 +13,7 @@
 
 [Visit Deployed Site]: XXX
 
-
+It is important, as a Programmer or Software Developer, to have a portfolio which highlights your experience and past projects, skills, and or any other information that potential employers would like to see. A comprehensive portfolio with a list of your projects, previous employment and education, and a section introducing yourself will help display what you can do for future employers. Highlighting your strongest work as well as a small explanation is also paramount.
 
 
 ## Table of Contents: 
@@ -24,7 +24,7 @@
 
 
 ### Installation: 
-It is important, as a Programmer or Software Developer, to have a portfolio which highlights your experience and past projects, skills, and or any other information that potential employers would like to see. A comprehensive portfolio with a list of your projects, previous employment and education, and a section introducing yourself will help display what you can do for future employers. Highlighting your strongest work as well as a small explanation is also paramount. 
+ 
 
 This project is my first programming portfolio, and while I did not have deployed projects that I could account on, I was able to create a portfolio which lists all of the technical (Software/Software Development) experience that I have already and am currently gaining. There is an initial picture, my name, title I am aiming to acquire, as well as my highest education level all sectioned within a <header> element. This <header> element was styled using flexbox properties of “display= flex” and “flex-direction=row. The content is affected also by the “justify-content: space around”. The respective code is below:
 
