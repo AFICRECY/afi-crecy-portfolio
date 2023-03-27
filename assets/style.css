@@ -52,7 +52,14 @@ nav a {
 
   li {
     align-content: center;
-    display: flex; 
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    white-space: nowrap;
+    line-height: 2.5;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
   }
 
 main {
@@ -86,14 +93,20 @@ aside {
     flex-direction: column;
   }
 
+.circle {
+    border-radius: 50%;
+    width: 350px;
+
+}
+
 h1 {
-    font-size: large
+    font-size: x-large;
 }
 
 
 h2 {
-  font-size: xx-large;
-  line-height: 3em;
+  font-size: 40px;
+  line-height: 2em;
 }
 
 h3 {
