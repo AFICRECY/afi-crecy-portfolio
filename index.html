@@ -1,94 +1,106 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>Afi Crecy Portfolio</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" type="text/css" href="./assets/style.css"/>
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+</head>
 
 <body>
 
-    <header>
-        <aside>
+    <header class="header">
+        <div class="header-left">
             <img class="circle" src="./assets/images/proffesional-photo.jpeg" alt="a picture of Afi">
-        </aside>
-        <!-- Do I need to add a div afround here? -->
-      <h1>Hi my name is...</h1>
-      <h2> Afi Nkhume-Crecy</h2>  
-      <!-- Above: make sure you set an element selector that makes h1 smaller than h2 -->
-      <p>
-       Associate Healthcare Software Developer 
-       <br>
-       Education: UC Berkeley B.A.
-      </p>
+        </div>
+        <div class="header-right">
+            <h1 class="georgia">Hi my name is...</h1>
+            <h2 class="georgia"> Afi Nkhume-Crecy</h2>
+            <p class="courier">
+                Associate Healthcare Software Developer
+                <br>
+                Education: UC Berkeley B.A.
+            </p>
+        </div>
     </header>
-    
 
-    <nav class="nav">
-      <a href="#About me">About Me</a>
-      <a href="#Previous Projects">Previous Projects</a>
-      <a href="#Contact Me">Contact Me</a>
-      <a href="#Resume">Resume</a>
+
+    <nav class="header-nav">
+        <a href="#About me">About Me</a>
+        <a href="#Previous Projects">Previous Projects</a>
+        <a href="#Contact Me">Contact Me</a>
+        <a href="#Resume">Resume</a>
     </nav>
 
- <main>
+    <main>
 
-    <aside>
-        <div>
-            <h2 id="About Me" class="header"> About Me:</h2>
-                <p>I am a full-stack developer with most experience in front-end and currently in training for backend work. Although most of my professional experience relates to project management and healthcare policy and management, I've managed websites for a couple companies and am transiting to Tech. I plan to help develop, update, and manage online accessible healthcare system portals to help make tele-health healthcare services more accessible to patients.
+        <aside>
+            <div>
+                <h2 id="About Me" class="header"> About Me:</h2>
+                <p>I am a full-stack developer with most experience in front-end and currently in training for backend
+                    work. Although most of my professional experience relates to project management and healthcare
+                    policy and management, I've managed websites for a couple companies and am transiting to Tech. I
+                    plan to help develop, update, and manage online accessible healthcare system portals to help make
+                    tele-health healthcare services more accessible to patients.
                 </p>
-        </div>
-        <br>
-        <br>
-        <div class="contact"> 
-            <nav>
-                <h1 id="Contact Me" class="header">Contact Me:</h1>
-                    <li><a href="https://www.linkedin.com/in/afi-nkhume-crecy-932862128/" target="_blank">☺  Linked In</a></li>
-                    <li><a href="https://github.com/AFICRECY" target="_blank">☺   GitHub</a></li>
-                    <li><a href="mailto:aficrecy@gmail.com" target="_blank">☺   Email</a></li>
-            </nav>
-        </div>
-        <br>
-        <br>
-        <div>
-            <h2>Resume</h2>
-            <img id="Resume" src="./assets/images/resume.png" alt="Afi's resume"/>
-        </div>
-        
-    </aside>
-     
-   
-        
-    <div id="Previous Projects" class="experience">
-        <header class="header">Previous Projects</header>
-        <section class="project">
-            <h3>East Bay College Fund Website Manager</h3> 
-            <a href="https://oaklandpromise.org/" target="_blank"><img class="imgcenter" src="./assets/images/ebcf-logo.png" alt="east bay college fund old-logo"></a>
-                <p>Managed and all social media (Increased social media audience following by approximately 300% on all platforms) and updated and maintained website utilizing WordPress and added plug-ins.
+            </div>
+            <br>
+            <br>
+            <div class="contact">
+                <nav class="contact-nav">
+                    <h1 id="Contact Me" class="header">Contact Me:</h1>
+                    <li><a href="https://www.linkedin.com/in/afi-nkhume-crecy-932862128/" target="_blank">☺ Linked
+                            In</a></li>
+                    <li><a href="https://github.com/AFICRECY" target="_blank">☺ GitHub</a></li>
+                    <li><a href="mailto:aficrecy@gmail.com" target="_blank">☺ Email</a></li>
+                </nav>
+            </div>
+            <br>
+            <br>
+            <div>
+                <h2>Resume</h2>
+                <img id="Resume" src="./assets/images/resume.png" alt="Afi's resume" />
+            </div>
+
+        </aside>
+
+
+
+        <div id="Previous Projects" class="experience">
+            <header class="header">Previous Projects</header>
+            <section class="project">
+                <h3>East Bay College Fund Website Manager</h3>
+                <a href="https://oaklandpromise.org/" target="_blank"><img class="imgcenter"
+                        src="./assets/images/ebcf-logo.png" alt="east bay college fund old-logo"></a>
+                <p>Managed and all social media (Increased social media audience following by approximately 300% on all
+                    platforms) and updated and maintained website utilizing WordPress and added plug-ins.
                 </p>
-        </section>
-        <section class="project">
-            <h3>Child Family & Community Services (CFCS) Head Start</h3>
-            <a href="https://www.childplus.com/" target="_blank"><img class="imgcenter" src="./assets/images/child-plus.png" alt="Child Plus Software Logo"></a>
-                <p>Maintained and updated Child Plus Database of patient health condisions, screenings, upcomming due dates, medications, and dosages.   
+            </section>
+            <section class="project">
+                <h3>Child Family & Community Services (CFCS) Head Start</h3>
+                <a href="https://www.childplus.com/" target="_blank"><img class="imgcenter"
+                        src="./assets/images/child-plus.png" alt="Child Plus Software Logo"></a>
+                <p>Maintained and updated Child Plus Database of patient health condisions, screenings, upcomming due
+                    dates, medications, and dosages.
                 </p>
-        </section>
-        <section class="project">
-            <!-- project used to be .card and experience used to be .product -->
-            <h3>UC Berkeley Coding Bootcamp</h3>
-            <a href="https://bootcamp.berkeley.edu/coding/" target="_blank"><img class="imgcenter" src="./assets/images/bootcamp-logo.png" alt="UC Berkeley Extension Bootcamp Logo"/></a>
-                <p>Currently a student at UC Berkeley learning key programming skills for frontend and backend web development.</p>
-        </section>
-    </div>
-     
- </main>
-  
-      
-      <footer>
-        
-      </footer>
+            </section>
+            <section class="project">
+                <!-- project used to be .card and experience used to be .product -->
+                <h3>UC Berkeley Coding Bootcamp</h3>
+                <a href="https://bootcamp.berkeley.edu/coding/" target="_blank"><img class="imgcenter"
+                        src="./assets/images/bootcamp-logo.png" alt="UC Berkeley Extension Bootcamp Logo" /></a>
+                <p>Currently a student at UC Berkeley learning key programming skills for frontend and backend web
+                    development.</p>
+            </section>
+        </div>
+
+    </main>
+
+
+    <footer>
+
+    </footer>
 
 
 
@@ -96,5 +108,5 @@
 
 
 </body>
-   
+
 </html>
