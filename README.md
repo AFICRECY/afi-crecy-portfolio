@@ -11,7 +11,7 @@
 
 ## Description: 
 
-[Visit Deployed Site]: XXX
+[Visit Deployed Site]: https://aficrecy.github.io/afi-crecy-portfolio/
 
 It is important, as a Programmer or Software Developer, to have a portfolio which highlights your experience and past projects, skills, and or any other information that potential employers would like to see. A comprehensive portfolio with a list of your projects, previous employment and education, and a section introducing yourself will help display what you can do for future employers. Highlighting your strongest work as well as a small explanation is also paramount.
 
