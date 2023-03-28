@@ -237,8 +237,20 @@ h3 {
 
 /* testing 2em */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
+    header {
+        flex-direction: column;
+    }
+}
 
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
     main,
     nav {
         flex-direction: column;
