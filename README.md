@@ -24,9 +24,7 @@ It is important, as a Programmer or Software Developer, to have a portfolio whic
 
 
 ### Installation: 
- 
-
-This project is my first programming portfolio, and while I did not have deployed projects that I could account on, I was able to create a portfolio which lists all of the technical (Software/Software Development) experience that I have already and am currently gaining. There is an initial picture, my name, title I am aiming to acquire, as well as my highest education level all sectioned within a "header" element. This "header" element was styled using flexbox properties of “display= flex” and “flex-direction=row. The content is affected also by the “justify-content: space around”. The respective code is below:
+ This project is my first programming portfolio, and while I did not have deployed projects that I could account on, I was able to create a portfolio which lists all of the technical (Software/Software Development) experience that I have already and am currently gaining. There is an initial picture, my name, title I am aiming to acquire, as well as my highest education level all sectioned within a "header" element. This "header" element was styled using flexbox properties of “display= flex” and “flex-direction=row. The content is affected also by the “justify-content: space around”. The respective code is below:
 
 ```
 .header {
@@ -69,11 +67,34 @@ Separately, within my index.html, contained within the "main" element, I was abl
 ```
 (example from style.css line 32-38)
 
+Furthermore, on the alternate side of the page I have my “Previous Projects” listed in a column order. They are collectively wrapped in a “div” element which is styled its own way, and then they are individually divided using “section” elements which hold each project. The “section” element are styled using a class of “.project”. There are also links attached to the circular images of the logo of the companies I have worked for. These links either take you to the website I used to manage or the company whose Software I have used. (These sections will be filled with actual deployed project gifs that I plan on updating in the future.) Below is a code snippet of the image link in the index.html: 
+
+```
+<a href="https://oaklandpromise.org/" target="_blank"><img class="imgcenter" src="./assets/images/ebcf-logo.png" alt="east bay college fund old-logo"></a>
+```
+(lines 74-75)
+
+I was also able to style the all the images on the page to, when hovered over, highlight as white/yellow. I was able to accomplish this styling with a “Pseudo Class” of “:hover”. The respective code is below. 
+
+```
+img:hover {
+   box-shadow: 10px 5px 5px rgb(246, 241, 147);
+}
+```
+(lines 208-209)
+
+Lastly I was able to adjust the screen size to the viewport screen size by adding a “Media Query” at the bottom of the CSS page. 
+
+```
+@media screen and (max-width: 768px) {
 
 
-Contd. (after tutoring) 
-May change formatting 
-
+   main,
+   nav {
+       flex-direction: column;
+   }
+}
+```
 
 
 
