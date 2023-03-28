@@ -26,9 +26,9 @@ It is important, as a Programmer or Software Developer, to have a portfolio whic
 ### Installation: 
  
 
-This project is my first programming portfolio, and while I did not have deployed projects that I could account on, I was able to create a portfolio which lists all of the technical (Software/Software Development) experience that I have already and am currently gaining. There is an initial picture, my name, title I am aiming to acquire, as well as my highest education level all sectioned within a <header> element. This <header> element was styled using flexbox properties of “display= flex” and “flex-direction=row. The content is affected also by the “justify-content: space around”. The respective code is below:
+This project is my first programming portfolio, and while I did not have deployed projects that I could account on, I was able to create a portfolio which lists all of the technical (Software/Software Development) experience that I have already and am currently gaining. There is an initial picture, my name, title I am aiming to acquire, as well as my highest education level all sectioned within a "header" element. This "header" element was styled using flexbox properties of “display= flex” and “flex-direction=row. The content is affected also by the “justify-content: space around”. The respective code is below:
 
-'''
+```
 .header {
    display: flex;
    flex-direction: row;
@@ -36,12 +36,12 @@ This project is my first programming portfolio, and while I did not have deploye
    font-size: 70px;
    line-height: 80%;
 }
-'''
+```
 (in style css line 32-38)
 
-Additionally I input a <nav> element which contains the links to the respective areas on the page. I was able to do this with a HTML <nav> id Attribute by assigning a list of anchor tags with an href value of #(Respective Section). I paired each of these nav id attributes with a id in the element on the section of the page I would like for the UI screen to scroll to when the nav link is clicked. The corresponding code is below: 
+Additionally I input a "nav" element which contains the links to the respective areas on the page. I was able to do this with a HTML "nav" id Attribute by assigning a list of anchor tags with an href value of #(Respective Section). I paired each of these nav id attributes with a id in the element on the section of the page I would like for the UI screen to scroll to when the nav link is clicked. The corresponding code is below: 
 
-'''
+```
  <nav class="header-nav">
        <a href="#About me">About Me</a>
        <a href="#Previous Projects">Previous Projects</a>
@@ -49,17 +49,16 @@ Additionally I input a <nav> element which contains the links to the respective 
        <a href="#Resume">Resume</a>
    </nav>
 (in index.html lines 29-34) 
-'''
+```
 
-'
-<h2 id="About Me" class="header"> About Me:</h2>
-'
+
+`<h2>id="About Me" class="header"> About Me:</h2>`
 (example of one of the corresponding id in the section, line 40)
 
 
-Separately, within my index.html, contained within the <main> element, I was able to create an <aside> containing my “About Me”, “Contact” as well as an image of my updated Programming “Resume.” This <aside> element was given various <divs> to section off the above listed areas. Each area was styled in style.css using a class of “.header” which was styled with both the “Box-Model” as well as “Flexbox.” The styling class is detailed below: 
+Separately, within my index.html, contained within the "main" element, I was able to create an "aside" containing my “About Me”, “Contact” as well as an image of my updated Programming “Resume.” This "aside" element was given various "divs" to section off the above listed areas. Each area was styled in style.css using a class of “.header” which was styled with both the “Box-Model” as well as “Flexbox.” The styling class is detailed below: 
 
-'''
+```
 .header {
    display: flex;
    flex-direction: row;
@@ -67,7 +66,7 @@ Separately, within my index.html, contained within the <main> element, I was abl
    font-size: 70px;
    line-height: 80%;
 }
-'''
+```
 (example from style.css line 32-38)
 
 
