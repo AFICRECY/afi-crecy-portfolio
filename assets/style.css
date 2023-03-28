@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
-    color: #000000;
+}
+
+:root {
+    --dark: #040000;
 }
 
 .georgia {
@@ -26,7 +29,8 @@ header {
     background: #e0bb00;
     padding: 40px;
     text-align: center;
-    color: #000000;
+    color: var(--dark);
+    /* color: #000000; */
 }
 
 .header {
@@ -36,6 +40,14 @@ header {
     font-size: 70px;
     line-height: 80%;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 
@@ -46,14 +58,13 @@ nav {
     align-items: center;
 }
 
-/* testing the 20px, not a fixed number */
 
 .header-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(13, 12, 1);
+    background-color: var(--dark);
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -70,24 +81,10 @@ nav {
     text-decoration: none;
     text-align: center;
     color: rgb(37, 15, 230);
-    justify-content: center;
-    font-size: x-large;
+    font-size: 50px;
     font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', 'serif';
-    width: 30%;
 }
 
-
-
-/* nav a {
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
-    color: rgb(37, 15, 230);
-    justify-content: center;
-    font-size: x-large;
-    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', 'serif';
-    width: 30%;
-} */
 
 li {
     align-content: center;
@@ -105,7 +102,6 @@ main {
     flex-grow: 1;
     flex-wrap: wrap;
 }
-
 
 
 .contact {
@@ -144,6 +140,7 @@ h1 {
 h2 {
     font-size: 40px;
     line-height: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h3 {
@@ -158,7 +155,7 @@ h3 {
 
 .specific {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(13, 12, 1);
+    color: var(--dark);
     font-size: x-large;
     margin-left: auto;
     margin-right: auto;
@@ -168,10 +165,6 @@ h3 {
     text-align: center; 
 }
 
-
-div {
-    justify-content: center;
-}
 
 div h2 {
     text-decoration: underline;
@@ -211,7 +204,6 @@ h1.header {
     align-items: center;
 }
 
-/* took out flex-wrap: wrap and replaced it with flex-direction */
 
 .experience img {
     border-radius: 50%;
@@ -230,10 +222,7 @@ img:hover {
     flex: 0 0 300px;
     border-radius: 50px;
     border-color: #91400b;
-    /* box-shadow: 10px 5px 5px black; */
 }
-
-/* testing out 50 border radius. old value was 30 */
 
 .imgcenter {
     display: block;
@@ -245,10 +234,9 @@ img:hover {
 h3 {
     font-size: medium;
     line-height: 2em;
-    color: Black;
+    color: var(--dark);
 }
 
-/* testing 2em */
 
 @media screen and (max-width: 992px) {
     header {
